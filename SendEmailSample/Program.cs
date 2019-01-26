@@ -22,10 +22,10 @@ namespace SendEmailSample
 
         public async static Task<bool> SendEmailToMyself(string subject, string content)
       {
-            string fromUserEmail = "lminkovsky@outlook.com";
-            string toUserEmail = "lminkovsky@outlook.com";
+         string fromUserEmail = "<from email here>";
+         string toUserEmail = "<to email here>";
 
-            var application = ClientCredentialProvider.CreateDaemonApplication(
+         var application = ClientCredentialProvider.CreateDaemonApplication(
                                             clientId,
                                             tenantId,
                                             secret);
