@@ -15,10 +15,9 @@ namespace SendEmailSample
    {
       // App must be registered as "Web" app and have the 
       // ApplicationOnly permissions Mail.Send and Users.Read.All 
-
         const string tenantId = "f8cdef31-a31e-4b4a-93e4-5f571e91255a";
-        const string clientId = "aee626c6-7252-4824-9923-6a9aea0d4591";  
-        const string secret = "mR4&s3:Ysd.fOdb)%";
+        const string clientId = "36df7229-2524-4985-8c71-feaf0d6a7ee3";  
+        const string secret = ")M+Y;%W7{-&[[[|%_9*?>={>.f^>@;S[+x];";
 
         public async static Task<bool> SendEmailToMyself(string subject, string content)
       {
