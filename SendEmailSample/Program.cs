@@ -15,14 +15,14 @@ namespace SendEmailSample
    {
       // App must be registered as "Web" app and have the 
       // ApplicationOnly permissions Mail.Send and Users.Read.All 
-        const string tenantId = "f8cdef31-a31e-4b4a-93e4-5f571e91255a";
-        const string clientId = "36df7229-2524-4985-8c71-feaf0d6a7ee3";  
-        const string secret = ")M+Y;%W7{-&[[[|%_9*?>={>.f^>@;S[+x];";
+        const string tenantId = "07b1effe-c7d9-4825-b95a-06eb0ec626e8";
+        const string clientId = "fdc675cd-ffae-434a-912d-2c2fbf3c4693";  
+        const string secret = ";/B3GOu/q)V}Eo+@}h{$bBNB*H*=4[91$m{z";
 
         public async static Task<bool> SendEmailToMyself(string subject, string content)
       {
-         string fromUserEmail = "<from email here>";
-         string toUserEmail = "<to email here>";
+         string fromUserEmail = "lminkovsky@outlook.com";
+         string toUserEmail = "lminkovsky@outlook.com";
 
          var application = ClientCredentialProvider.CreateDaemonApplication(
                                             clientId,
